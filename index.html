@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Fontend Award</title>
+</head>
+<body>
+  <div class="main">
+    <div class="section1" align="left">
+      <div>
+        <h3>MOVIE-INSPIRED</h3>
+        <h1>TYPOGRAPHY</h1>
+      </div>
+    
+      <div>
+        <p>
+          Masterly animated aptions allure your viewer with modern motion design and introduce a true filmic atmosphere in your edit. 
+        </p>
+      </div>
+      <!-- Bande annonce video -->
+      <div>
+        <video width="400" heght="310" poster="images/vignette.jpg" autoplay controls>
+          <source src="images/casadepapel.webm" type="video/webm">
+        </video>
+      </div>
+    </div>
+  <!-- Carousel images of actors -->
+    <div>
+  
+        <div class="caroussel_list">
+          <div class="Slides fade">
+            <img src="images/professeur.jpg" alt="professeur" class="carousel_image">
+            <div class="text">Alvaro Morte | Alias Professeur</div>
+          </div>
+          <div class="Slides fade">
+            <img src="images/ursula2.jpg" alt="ursula" class="carousel_image">
+            <div class="text">Ursulla Corbero | Tokyo</div>
+          </div>
+
+          <div class="Slides fade">
+            <img src="images/lisbone.jpg" alt="alia" class="carousel_image" >
+            <div class="text">Itzar Ituno | Lisbonne</div>
+          </div>
+        </div>
+      
+      <button class="left_button" onclick="plusSlides(-1)">
+        <img src="images/icons8-gauche-50.png" alt="left-direction" class="direction">
+      </button>
+      <button class="right_button" onclick="plusSlides(1)">
+        <img src="images/icons8-droite-50.png" alt="right-button" class="direction">
+      </button>
+     
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
